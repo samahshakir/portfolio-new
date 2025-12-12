@@ -16,7 +16,7 @@ export const portfolioData = {
             twitter: "", // Not explicitly provided, leaving empty
         },
         about: `Senior Full Stack Engineer with 3+ years of experience building high-impact AI-powered software solutions.`,
-        resumeUrl: "/resume.pdf", // Assuming user will replace the file
+        resumeUrl: "/resume.pdf?v=2", // Update version number when resume changes
     },
     skills: {
         frontend: [
