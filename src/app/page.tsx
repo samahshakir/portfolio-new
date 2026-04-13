@@ -19,6 +19,8 @@ import SpinningShape from '@/components/SpinningShape'
 import { portfolioData } from '@/data'
 import Certifications from '@/components/Certifications'
 
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   return (
     <main className="relative mx-auto sm:max-w-[600px] lg:max-w-[1400px]">

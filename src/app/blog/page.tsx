@@ -5,6 +5,8 @@ import { Calendar, ArrowLeft, ExternalLink } from "lucide-react";
 import { getAllBlogPosts } from "@/lib/mdx";
 import { format } from "date-fns";
 
+export const dynamic = 'force-dynamic';
+
 export default async function BlogPage() {
   const blogPosts = await getAllBlogPosts();
 
