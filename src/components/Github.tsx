@@ -4,11 +4,16 @@ import AOSComponent from "@/lib/aos";
 import GitHubCalendar from "react-github-calendar";
 
 export default function Github() {
-  const years = [2025, 2024].reverse();
+  const currentYear = new Date().getFullYear();
+  const years = Array.from(
+    { length: currentYear - 2025 + 1 },
+    (_, i) => 2025 + i,
+  );
 
-  // Force fresh data fetch
   const transformData = (data: any) => {
-    return data;
+    return data.filter(
+      (activity: any) => new Date(activity.date) >= new Date('2025-06-01'),
+    );
   };
 
   return (

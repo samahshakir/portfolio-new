@@ -62,6 +62,15 @@ export const portfolioData = {
     },
     projects: [
         {
+            title: "Lubnod",
+            description: "AI-powered customer ticketing support that unifies Social Media, Chats, Comments, and Reviews into one intelligent ticketing engine. AI filters, routes, and prioritizes every message so your team focuses on what matters.",
+            techStack: ["AI-Powered", "Full-Stack", "Omnichannel", "Bilingual (AR/EN)", "Multi-Tenant"],
+            links: {
+                demo: "https://lubnod.lubab.sa",
+                code: "",
+            }
+        },
+        {
             title: "LubReminder",
             description: "AI-powered appointment reminder system that helps healthcare providers reduce no-shows and improve patient engagement through intelligent multi-channel communication.",
             techStack: ["AI/ML", "Node.js", "React", "Multi-channel APIs"],
